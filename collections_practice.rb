@@ -64,5 +64,6 @@ def add_s(arr)
   arr.each do |string|
     string << "s"
     with_s << string
-
+  end
+  with_s
 end
