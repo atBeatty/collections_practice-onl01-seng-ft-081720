@@ -49,5 +49,5 @@ end
 def find_a(arr)
   arr.collect do |string|
     string.start_with?("a")
-end  
+  end  
 end
