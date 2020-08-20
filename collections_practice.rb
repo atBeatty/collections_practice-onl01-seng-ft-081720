@@ -20,3 +20,13 @@ def sort_array_char_count(arr)
   end
   arr
 end
+
+def swap_elements(arr)
+  second_el = arr[1]
+  third_el = arr[2]
+
+  arr[1] = third_el
+  arr[2] = second_el
+
+  arr
+end
