@@ -13,3 +13,10 @@ def sort_array_desc(arr)
   end
   arr
 end
+
+def sort_array_char_count(arr)
+  arr.sort! do |a, b|
+    a <=> b
+  end
+  arr
+end
