@@ -55,6 +55,10 @@ end
 
 def sum_array(arr)
   arr.reduce(:+)
-  
+end
+
+
+def add_s(arr)
+  for 
 
 end
