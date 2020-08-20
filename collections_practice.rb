@@ -47,7 +47,7 @@ dollar_signs_arr
 end
 
 def find_a(arr)
-  arr.collect do |string|
+  arr.selects do |string|
     string.start_with?("a")
   end
   arr  
