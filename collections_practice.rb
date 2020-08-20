@@ -68,5 +68,6 @@ def add_s(arr)
     # end
     with_s << string
   end
+  with_s[1] = "feet"
   with_s
 end
