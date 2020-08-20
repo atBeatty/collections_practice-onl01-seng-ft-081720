@@ -43,5 +43,5 @@ def kesha_maker(arr)
     dollar_signs_arr << string
   end
 
-
+dollar_signs_arr
 end
