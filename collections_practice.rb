@@ -63,7 +63,7 @@ def add_s(arr)
 
   arr.each_with_index do |string, i|
     string << "s"
-    string.slice(!-1) if i = 1
+    string.slice!(-1) if i = 1
     with_s << string
 
 
