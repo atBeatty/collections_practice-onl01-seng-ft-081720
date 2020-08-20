@@ -65,8 +65,8 @@ def add_s(arr)
     string << "s"
     string.slice(-1) if i = 1
     with_s << string
-    
-      
+
+
   end
   with_s
 end
